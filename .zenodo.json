@@ -1,0 +1,30 @@
+{
+  "upload_type": "dataset",
+  "title": "Short Drama Apps Dataset",
+  "description": "Store ratings, install counts, in-app prices, aggregated user-review complaint shares and data-based scores for the short drama (vertical micro-drama) apps ranked by Vertical Drama Reviews. Updated weekly, with a monthly snapshot archive. Source: Vertical Drama Reviews (https://verticaldramareviews.com/data)",
+  "creators": [
+    {
+      "name": "Vertical Drama Reviews"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "short drama apps",
+    "vertical drama",
+    "micro-drama",
+    "mobile apps",
+    "App Store",
+    "Google Play",
+    "app ratings",
+    "in-app purchases",
+    "user reviews"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://verticaldramareviews.com/data",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    }
+  ]
+}
