@@ -1,5 +1,7 @@
 # Short Drama Apps Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24092219.svg)](https://doi.org/10.5281/zenodo.24092219)
+
 Store ratings, install counts, in-app prices, aggregated user-review complaint shares and data-based scores for the short drama (vertical micro-drama) apps ranked by Vertical Drama Reviews. Updated weekly, with a monthly snapshot archive.
 
 Published by [Vertical Drama Reviews](https://verticaldramareviews.com). Dataset page: https://verticaldramareviews.com/data
@@ -78,7 +80,7 @@ Vertical Drama Reviews (2026). Short Drama Apps Dataset [Data set]. https://vert
 }
 ```
 
-GitHub shows a "Cite this repository" button based on [`CITATION.cff`](CITATION.cff). Each monthly release is archived on Zenodo with its own DOI.
+GitHub shows a "Cite this repository" button based on [`CITATION.cff`](CITATION.cff). Each monthly release is archived on Zenodo with its own DOI; the DOI above always points to the latest version.
 
 ## Updates
 
