@@ -1,30 +1,44 @@
 {
   "upload_type": "dataset",
   "title": "Short Drama Apps Dataset",
-  "description": "Store ratings, install counts, in-app prices, aggregated user-review complaint shares and data-based scores for the short drama (vertical micro-drama) apps ranked by Vertical Drama Reviews. Updated weekly, with a monthly snapshot archive. Source: Vertical Drama Reviews (https://verticaldramareviews.com/data)",
+  "version": "2026-11",
   "creators": [
     {
       "name": "Vertical Drama Reviews"
     }
   ],
-  "license": "cc-by-4.0",
+  "description": "<p>Store ratings, install counts, in-app prices, aggregated user-review complaint shares and data-based scores for the short drama (vertical micro-drama) apps ranked by Vertical Drama Reviews. Updated weekly, with a monthly snapshot archive. One row per app: 25 apps in this version, 24 fields.</p>\n<p><strong>What is in it.</strong> For every short drama (vertical micro-drama) app in the Vertical Drama Reviews ranking: App Store and Google Play ratings and rating counts, the Google Play install range, in-app prices, the share of analyzed user reviews that mention billing, ads, paywall and bug problems or praise the shows, and the data-based score and rank shown on the site. Files: <code>data/short-drama-apps.csv</code>, <code>data/short-drama-apps.json</code> (same values plus field definitions) and monthly snapshots in <code>data/history/</code>.</p>\n<p><strong>Sources.</strong> Store data comes from the US App Store and US Google Play listings. Review columns come from a sample of up to 150 App Store and 150 Google Play reviews per app, spread over the past 12 months; each review is labeled by theme automatically by a language model. Only the resulting shares (0–1) are published, never the reviews themselves or quotes from them.</p>\n<p><strong>Limitations.</strong> Apple shows only the most popular in-app purchases on an app&#39;s page, not the full price list, so <code>iap_price_min_usd</code> and <code>iap_price_max_usd</code> describe that top list only, and <code>subscription_seen_in_app_store_top_iaps</code> is either <code>true</code> or empty (unknown), never <code>false</code>. Install counts are the lower bound of the range Google Play shows. Empty cells mean the value is not available.</p>\n<p><strong>Updates.</strong> Data is refreshed weekly; a monthly snapshot is added on the first update of each month, and each monthly snapshot is released here as a new version.</p>\n<p>Field dictionary and downloads: <a href=\"https://verticaldramareviews.com/data\">https://verticaldramareviews.com/data</a>. Methodology and score formula: <a href=\"https://verticaldramareviews.com/how-we-test\">https://verticaldramareviews.com/how-we-test</a>.</p>",
   "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
   "keywords": [
-    "short drama apps",
+    "short drama",
     "vertical drama",
     "micro-drama",
     "mobile apps",
-    "App Store",
-    "Google Play",
-    "app ratings",
+    "app store",
+    "google play",
     "in-app purchases",
-    "user reviews"
+    "user reviews",
+    "subscriptions",
+    "streaming"
   ],
   "related_identifiers": [
     {
       "identifier": "https://verticaldramareviews.com/data",
-      "relation": "isIdenticalTo",
-      "resource_type": "dataset"
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/ezrocky/short-drama-apps-dataset",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://verticaldramareviews.com/how-we-test",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
     }
-  ]
+  ],
+  "notes": "Cite as: Vertical Drama Reviews (2026). Short Drama Apps Dataset [Data set]. https://verticaldramareviews.com/data. Licensed under CC BY 4.0. Attribution line: Source: Vertical Drama Reviews (https://verticaldramareviews.com/data)"
 }
