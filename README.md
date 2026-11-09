@@ -6,6 +6,9 @@ Store ratings, install counts, in-app prices, aggregated user-review complaint s
 
 Published by [Vertical Drama Reviews](https://verticaldramareviews.com). Dataset page: https://verticaldramareviews.com/data
 
+- Also on Hugging Face: https://huggingface.co/datasets/verticaldramareviews/short-drama-apps-dataset
+- Zenodo (DOI for every monthly release): https://doi.org/10.5281/zenodo.24092219
+
 Last updated: 2026-11-09. Apps: 25.
 
 ## Files
